@@ -1,31 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="script.js"></script>
-</head>
-<body>
-  <header>
-    <img src="imagem da logo e é isso" alt="Logo da Hamburgueria">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Cardápio</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h1>Cardápio da Hamburgueria</h1>
+        <link rel="stylesheet" href="styles.css">
 
-  <div id="menu">
-    <!-- Os itens do cardápio serão adicionados dinamicamente pelo JavaScript -->
-  </div>
+    
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-  <footer>
-    <p>© 2023 Hamburgueria. Todos os direitos reservados.</p>
-    <img src="link da imagem nesse caraio" alt="Ícone da Hamburgueria">
-  </footer>
-</body>
+        <title>Cardápio</title>
+    </head>
+    <body>
+    
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">CodeBurger: Sabores de Alta Programação"</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Cardápio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+                    <a href="#" class="button">Contate-nos</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                </div>
+                        </g>
+                    </svg>
+                </div>
+            <section class="work section" id="work">
+                <h2 class="section-title">cardápio</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="img/hamburguer1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="img/hamb2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="img/hamb3.png" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="img/hamb4.jpeg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="img/hsmb6.jpeg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="img/hamb7.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+    
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contate-nos</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+    
+        <footer class="footer">
+            <p class="footer__title">CodeBurguer</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </footer>
+
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        
+        <script src="script.js"></script>
+    </body>
 </html>
