@@ -394,6 +394,7 @@ img {
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
+    color: black;
   }
 }
 
@@ -408,5 +409,21 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+.nomeburguers {
+  font-family: 'Righteous', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.ingredientes {
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(242, 12, 12);
+  text-align: justify;
 }
   
