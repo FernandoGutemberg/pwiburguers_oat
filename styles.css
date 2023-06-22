@@ -423,7 +423,44 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(242, 12, 12);
+  color: black;
   text-align: justify;
 }
-  
+
+
+
+.cardapio {
+  text-align: center;
+}
+
+.lista-bebidas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-bebidas li {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-bebidas img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lista-bebidas h3, .lista-bebidas p {
+  margin: 0;
+  text-align: center;
+}
+.section-title{
+  color: black;
+}
